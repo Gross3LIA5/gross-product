@@ -1,6 +1,9 @@
-public class Company{
+public class Company
+{
 	private ArrayList<Products> products;
-	public Company(){
+	private String name = "IBM";
+	public Company()
+	{
 		;
 	}
 }
