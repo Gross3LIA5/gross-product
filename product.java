@@ -3,6 +3,7 @@ public class Product
 	private String name;
 	private boolean onStock = true;
 	private float price = 10f;
+	private int id;
 	public Product()
 	{
 		setName("Coca Cola");
