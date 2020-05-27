@@ -1,12 +1,16 @@
-public class Product{
+public class Product
+{
 	private String name;
-	public Product(){
+	public Product()
+	{
 		setName("Coca Cola");
 	}
-	public void setName(String name){
+	public void setName(String name)
+	{
 		this.name=name;
 	}
-	public String getName(){
+	public String getName()
+	{
 		return name;
 	}
 }
